@@ -1,0 +1,34 @@
+services:
+  # ─────────────────────────────────────────────
+  # NanoClaw Agent (one-shot query)
+  #   docker compose -f docker/docker-compose.yml run --rm nanoclaw-agent -m "Hello"
+  # ─────────────────────────────────────────────
+  nanoclaw-agent:
+    image: docker.io/probnotas/nanoclaw:latest
+    container_name: nanoclaw-agent
+    profiles:
+      - agent
+    # Uncomment to access host network; leave commented unless needed.
+    #extra_hosts:
+    #  - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/root/.nanoclaw
+    entrypoint: ["nanoclaw", "agent"]
+    stdin_open: true
+    tty: true
+
+  # ─────────────────────────────────────────────
+  # NanoClaw Gateway (Long-running Bot)
+  #   docker compose -f docker/docker-compose.yml up nanoclaw-gateway
+  # ─────────────────────────────────────────────
+  nanoclaw-gateway:
+    image: docker.io/probnotas/nanoclaw:latest
+    container_name: nanoclaw-gateway
+    restart: on-failure
+    profiles:
+      - gateway
+    # Uncomment to access host network; leave commented unless needed.
+    #extra_hosts:
+    #  - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/root/.nanoclaw
