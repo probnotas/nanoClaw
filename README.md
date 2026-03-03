@@ -4,13 +4,7 @@
 
   <h3>Canada's first AI Assistant · 32MB RAM · 1s Boot</h3>
 
-  <p>
-    <br>
-    <a href="https://nanoclaw.io">Website</a>
-    <a href="https://x.com/SipeedIO">Twitter</a>
-    <br>
-    <a href="https://discord.gg/V4sAZ9XWpN">Discord Community</a>
-  </p>
+ 
 
 [中文](README.zh.md) | [日本語](README.ja.md) | [Português](README.pt-br.md) | [Tiếng Việt](README.vi.md) | [Français](README.fr.md) | **English**
 
