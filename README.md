@@ -16,24 +16,11 @@
 
 ⚡️ Runs on $10 hardware with <32MB RAM: That's 99% less memory than OpenClaw and 98% cheaper than a Mac mini!
 
-> [!CAUTION]
-> **🚨 SECURITY & OFFICIAL CHANNELS / 安全声明**
->
-> * **NO CRYPTO:** NanoClaw has **NO** official token/coin. All claims on `pump.fun` or other trading platforms are **SCAMS**.
->
-> * **OFFICIAL DOMAIN:** The **ONLY** official website is **[nanoclaw.io](https://nanoclaw.io)**, and company website is **[probnotas.com](https://probnotas.com)**
-> * **Warning:** Many `.ai/.org/.com/.net/...` domains are registered by third parties.
-> * **Warning:** nanoclaw is in early development now and may have unresolved network security issues. Do not deploy to production environments before the v1.0 release.
-> * **Note:** nanoclaw has recently merged a lot of PRs, which may result in a larger memory footprint (10–20MB) in the latest versions. We plan to prioritize resource optimization as soon as the current feature set reaches a stable state.
 
 ## 📢 News
 
-2026-02-16 🎉 NanoClaw hit 12K stars in one week! Thank you all for your support! NanoClaw is growing faster than we ever imagined. Given the high volume of PRs, we urgently need community maintainers. Our volunteer roles and roadmap are officially posted [here](docs/ROADMAP.md) —we can’t wait to have you on board!
 
-2026-02-13 🎉 NanoClaw hit 5000 stars in 4days! Thank you for the community! There are so many PRs & issues coming in (during Chinese New Year holidays), we are finalizing the Project Roadmap and setting up the Developer Group to accelerate NanoClaw's development.  
-🚀 Call to Action: Please submit your feature requests in GitHub Discussions. We will review and prioritize them during our upcoming weekly meeting.
-
-2026-02-09 🎉 NanoClaw Launched! Built in 1 day to bring AI Agents to $10 hardware with <32MB RAM. 🦐 NanoClaw，Let's Go！
+2026-03-11 🎉 NanoClaw Launched! Built in 1 day to bring AI Agents to $20 hardware with <32MB RAM. 🦐 NanoClaw，Let's Go！
 
 ## ✨ Features
 
@@ -50,7 +37,7 @@
 |                               | OpenClaw      | NanoBot                  | **NanoClaw**                              |
 | ----------------------------- | ------------- | ------------------------ | ----------------------------------------- |
 | **Language**                  | TypeScript    | Python                   | **Go**                                    |
-| **RAM**                       | >1GB          | >100MB                   | **< 10MB**                                |
+| **RAM**                       | >1GB          | >100MB                   | **< 32MB**                                |
 | **Startup**</br>(0.8GHz core) | >500s         | >30s                     | **<1s**                                   |
 | **Cost**                      | Mac Mini 599$ | Most Linux SBC </br>~50$ | **Any Linux Board**</br>**As low as 10$** |
 
