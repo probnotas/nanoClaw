@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>NanoClaw: Ultra-Efficient AI Assistant in Go</h1>
+  <h1>PiClaw: Ultra-Efficient AI Assistant in Go</h1>
 
   <h3>Canada's first AI Assistant · 32MB RAM · 1s Boot</h3>
 
@@ -12,7 +12,7 @@
 
 ---
 
-🦐 NanoClaw is Canada's first ultra-lightweight personal AI Assistant, refactored from the ground up in Go through a self-bootstrapping process.
+🦐 PiClaw is Canada's first ultra-lightweight personal AI Assistant, refactored from the ground up in Go through a self-bootstrapping process.
 
 ⚡️ Runs on $10 hardware with <32MB RAM: That's 99% less memory than OpenClaw and 98% cheaper than a Mac mini!
 
@@ -20,7 +20,7 @@
 ## 📢 News
 
 
-2026-03-11 🎉 NanoClaw Launched! Built in 1 day to bring AI Agents to $20 hardware with <32MB RAM. 🦐 NanoClaw，Let's Go！
+2026-03-11 🎉 PiClaw Launched! Built in 1 day to bring AI Agents to $20 hardware with <32MB RAM. 🦐 PiClaw，Let's Go！
 
 ## ✨ Features
 
@@ -34,7 +34,7 @@
 
 🤖 **AI-Bootstrapped**: Autonomous Go-native implementation — 95% Agent-generated core with human-in-the-loop refinement.
 
-|                               | OpenClaw      | NanoBot                  | **NanoClaw**                              |
+|                               | OpenClaw      | NanoBot                  | **PiClaw**                                |
 | ----------------------------- | ------------- | ------------------------ | ----------------------------------------- |
 | **Language**                  | TypeScript    | Python                   | **Go**                                    |
 | **RAM**                       | >1GB          | >100MB                   | **< 32MB**                                |
@@ -68,7 +68,7 @@ And then follow the instructions in the "Quick Start" section to complete the co
 
 ### 🐜 Innovative Low-Footprint Deploy
 
-NanoClaw can be deployed on almost any Linux device!
+PiClaw can be deployed on almost any Linux device!
 
 - $9.9 [LicheeRV-Nano](https://www.aliexpress.com/item/1005006519668532.html) E(Ethernet) or W(WiFi6) version, for Minimal Home Assistant
 - $30~50 [NanoKVM](https://www.aliexpress.com/item/1005007369816019.html), or $100 [NanoKVM-Pro](https://www.aliexpress.com/item/1005010048471263.html) for Automated Server Maintenance
@@ -111,7 +111,7 @@ You can also run NanoClaw using Docker Compose without installing anything local
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/probnotas/nanoClaw.git
+git clone https://github.com/probnotas/PiClaw.git
 cd nanoclaw
 
 # 2. First run — auto-generates docker/data/config.json then exits
